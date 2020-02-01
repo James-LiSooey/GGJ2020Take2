@@ -1,5 +1,4 @@
 var _directionAdjustment;
-var _directionBreak;
 
 
 if(mouse_check_button_pressed(mb_left) && position_meeting(mouse_x, mouse_y, id)){
@@ -17,6 +16,10 @@ if(directionDiff>directionInterval/2){
 }
 
 myDirection = mouseDirection - directionDiff + _directionAdjustment
+
+if(myDirection = 360){
+	myDirection = 0;	
+}
 }
 
 

@@ -29,14 +29,14 @@ var _radarfixed = true;
 if(radarActive = false){
 	//check if any knobs are boken
 	with(oKnob){
-		if(oKnob.knobBroken && oKnob.knobBreak){
+		if(knobBroken && knobBreak){
 			_radarfixed = false;
 			break;
 		}
 	}
 	//if no knobs are broken, repair radar
 	if(_radarfixed){
-		radarActive = true;
+		//radarActive = true;
 	}
 }
 
