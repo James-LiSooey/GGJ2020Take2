@@ -199,14 +199,6 @@
             }
         },
         {
-            "Key": "8affdf2d-49d2-4924-a4e2-7ea92c61f39c",
-            "Value": {
-                "id": "32c9015c-243e-4ab1-8098-f38585bfea5e",
-                "resourcePath": "objects\\oSubmarine\\oSubmarine.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "8c3c1c4f-01de-423e-90cd-e15201709fc7",
             "Value": {
                 "id": "5c7369e0-d7ba-4b2e-9f97-03e2d2118875",
