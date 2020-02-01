@@ -103,11 +103,27 @@
             }
         },
         {
+            "Key": "3366cdce-56a7-48b1-9220-ede6b9414c9a",
+            "Value": {
+                "id": "bdc75ac5-8ff8-4724-9a6a-d90d0ad2e5c3",
+                "resourcePath": "sprites\\sLighting\\sLighting.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "483dbe89-5806-4809-a2d1-31eaa956c3fd",
             "Value": {
                 "id": "b0074e19-3247-4ee3-a284-fc9d0cbbb5d1",
                 "resourcePath": "objects\\oPar_Light\\oPar_Light.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "4e5e7b31-beb9-48f1-a359-e8ca850f3d00",
+            "Value": {
+                "id": "beb6b1d7-bead-45ba-b1ec-82e485995525",
+                "resourcePath": "sprites\\sStartGame\\sStartGame.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -139,6 +155,14 @@
             "Value": {
                 "id": "91dc3a97-5540-4bf0-bb52-77f6c3cdf69b",
                 "resourcePath": "sprites\\sRight\\sRight.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "5ba5edcb-7af6-4582-8553-857f24a22c08",
+            "Value": {
+                "id": "a35846a2-c2ac-4504-a342-be558734f856",
+                "resourcePath": "sprites\\sChest\\sChest.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -346,7 +370,7 @@
             "Key": "da0fdbef-f082-4262-b2e0-2abeb8a6fcbf",
             "Value": {
                 "id": "cc66ef87-c0e6-4a72-b7c3-8ee8dab0581d",
-                "resourcePath": "sprites\\sprMonster\\sprMonster.yy",
+                "resourcePath": "sprites\\sMonster\\sMonster.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -396,6 +420,22 @@
                 "id": "a93e733d-66d7-4b88-b7c5-a5c4d85588e5",
                 "resourcePath": "views\\e55d697a-c4d2-4658-94f3-4d91ca83881d.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "e5992902-34e9-4c56-8537-26f2174e02ab",
+            "Value": {
+                "id": "f8c1a01f-afad-4a92-9ed0-5fba3d0cf8c6",
+                "resourcePath": "sprites\\sBubble\\sBubble.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "e9990093-e026-4a7f-8a10-083f95ef49fa",
+            "Value": {
+                "id": "0346551e-f591-48d7-845a-9bee82a46c0f",
+                "resourcePath": "sprites\\sSubmarine\\sSubmarine.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
