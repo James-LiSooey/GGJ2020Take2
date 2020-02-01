@@ -399,14 +399,6 @@
             }
         },
         {
-            "Key": "e9990093-e026-4a7f-8a10-083f95ef49fa",
-            "Value": {
-                "id": "e173636b-ec59-44aa-a888-048260f067f8",
-                "resourcePath": "sprites\\sprSubmarine\\sprSubmarine.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "f418569b-3bdd-4706-a0e4-364317f54032",
             "Value": {
                 "id": "12f320d7-a0ca-4c13-b2f6-6ba9d3ba93de",
