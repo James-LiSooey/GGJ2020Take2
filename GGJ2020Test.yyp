@@ -335,14 +335,6 @@
             }
         },
         {
-            "Key": "da0fdbef-f082-4262-b2e0-2abeb8a6fcbf",
-            "Value": {
-                "id": "cc66ef87-c0e6-4a72-b7c3-8ee8dab0581d",
-                "resourcePath": "sprites\\sprMonster\\sprMonster.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "da29ab5b-d862-4117-8a10-8f05ca4f5a02",
             "Value": {
                 "id": "ee7ff694-ee8f-452e-82b6-6f83dbaf3dd9",
@@ -388,14 +380,6 @@
                 "id": "a93e733d-66d7-4b88-b7c5-a5c4d85588e5",
                 "resourcePath": "views\\e55d697a-c4d2-4658-94f3-4d91ca83881d.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "e9990093-e026-4a7f-8a10-083f95ef49fa",
-            "Value": {
-                "id": "e173636b-ec59-44aa-a888-048260f067f8",
-                "resourcePath": "sprites\\sprSubmarine\\sprSubmarine.yy",
-                "resourceType": "GMSprite"
             }
         },
         {
