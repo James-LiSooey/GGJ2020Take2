@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-if !surface_exists(surf){
+if (!surface_exists(surf)) {
     // Again, surfaces can be a pain
     // Create a new one if there were issues
     surf = surface_create(room_width, room_height);
@@ -35,11 +35,12 @@ if !surface_exists(surf){
 			} else {
 				alph = 0;
 			}
-			draw_sprite_ext(sDirLight, 0, oSubmarine.x - _cx, oSubmarine.y - _cy, 1, 1, oSubmarine.direction, c_white, alph);
+			haxis = gamepad_axis_value(0, gp_axisrh);
+			vaxis = gamepad_axis_value(0, gp_axisrv);
+			pd = point_direction(0,0,haxis,vaxis);
+			
+			draw_sprite_ext(sDirLight, 0, oSubmarine.x - _cx, oSubmarine.y - _cy, 1, 1, pd, c_white, alph);
 			draw_sprite_ext(sRadLight, 0, oSubmarine.x - _cx, oSubmarine.y - _cy, 1, 1, 0, c_white, 1)
-		}
-		with (oMonster) {
-			draw_sprite_ext(sRadLight, 0, x - _cx, y - _cy, 1, 1, 0, c_white, 1);	
 		}
 		gpu_set_blendmode(bm_normal);
 		draw_set_alpha(1);

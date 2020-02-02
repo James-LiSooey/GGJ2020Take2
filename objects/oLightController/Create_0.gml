@@ -3,6 +3,10 @@
 // Create a surface the size of the current room
 // You could also create a surface the size of the current view, but I won't get into that
 alph = 0;
+haxis = 0;
+vaxis = 0;
+pd = 0;
+
 surf = surface_create(room_width, room_height);
 
 // The following two lines clear the surface
