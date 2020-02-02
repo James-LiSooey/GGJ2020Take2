@@ -23,3 +23,11 @@ if(gamepad_button_check_released(0, gp_face3)) {
 		global.pressureActive2 = true;	
 	}
 }
+
+if(gamepad_button_check_released(0, gp_face4)) {
+	if(global.dead) {
+		global.dead = false;
+	} else {
+		global.dead = true;	
+	}
+}
