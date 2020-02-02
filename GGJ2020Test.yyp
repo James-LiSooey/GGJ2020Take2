@@ -63,11 +63,11 @@
             }
         },
         {
-            "Key": "11aeffe6-3fec-4858-a278-63ced5138e37",
+            "Key": "141693e6-1670-4d6e-90e4-794e9c0ad1d0",
             "Value": {
-                "id": "a637e7d0-3561-4a51-b0b4-dab0c7484818",
-                "resourcePath": "sprites\\sprite13\\sprite13.yy",
-                "resourceType": "GMSprite"
+                "id": "caa1b0a8-e5f3-4fe8-b254-aeedee731f39",
+                "resourcePath": "objects\\oLightController\\oLightController.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -103,6 +103,14 @@
             }
         },
         {
+            "Key": "20e57370-071a-4d7d-9471-3f503ff16893",
+            "Value": {
+                "id": "2ce399d5-cdc6-4480-bef7-d47fa6131e5c",
+                "resourcePath": "objects\\oLightParent\\oLightParent.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "21a124c6-d378-450b-b99a-9efa13561ca2",
             "Value": {
                 "id": "ac858f86-0764-4c9b-8d15-c0eb1e531cf5",
@@ -111,19 +119,19 @@
             }
         },
         {
+            "Key": "2f7a070f-cd30-4571-a732-66c215f81035",
+            "Value": {
+                "id": "cf4d2e63-b3eb-4e2e-892c-29c84f7317a0",
+                "resourcePath": "sprites\\sRadLight\\sRadLight.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "31f2e1cc-8035-4467-968f-28df340e02f2",
             "Value": {
                 "id": "5babb692-6f26-4536-bc63-a7bc8c2e192e",
                 "resourcePath": "objects\\oLightControl\\oLightControl.yy",
                 "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "3366cdce-56a7-48b1-9220-ede6b9414c9a",
-            "Value": {
-                "id": "bdc75ac5-8ff8-4724-9a6a-d90d0ad2e5c3",
-                "resourcePath": "sprites\\sLighting\\sLighting.yy",
-                "resourceType": "GMSprite"
             }
         },
         {
@@ -215,6 +223,14 @@
             }
         },
         {
+            "Key": "7c738755-1d28-4afb-a784-904b76d4f7db",
+            "Value": {
+                "id": "99adb0b8-2fb7-430b-a7a9-d5b1cf57f98a",
+                "resourcePath": "sprites\\sDirLight\\sDirLight.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "7f14fe30-7a06-4208-b1bc-c1dbfbde98ac",
             "Value": {
                 "id": "6218e098-93f2-4154-9f7f-62989f541ef1",
@@ -241,7 +257,7 @@
         {
             "Key": "8affdf2d-49d2-4924-a4e2-7ea92c61f39c",
             "Value": {
-                "id": "814d58d3-5c40-4b2a-9a81-c3ae9db6f8da",
+                "id": "703d9980-a854-40b0-b3a4-2b25a3fd0672",
                 "resourcePath": "objects\\oSubmarine\\oSubmarine.yy",
                 "resourceType": "GMObject"
             }
@@ -316,14 +332,6 @@
                 "id": "25ce8743-7461-48ac-be45-4117748fb483",
                 "resourcePath": "options\\linux\\options_linux.yy",
                 "resourceType": "GMLinuxOptions"
-            }
-        },
-        {
-            "Key": "b86d5a08-08f1-45c9-8601-bb6b9737fdbc",
-            "Value": {
-                "id": "45785d43-57b8-4a9a-b682-16b84efb9b3d",
-                "resourcePath": "objects\\oLightParent\\oLightParent.yy",
-                "resourceType": "GMObject"
             }
         },
         {
@@ -433,7 +441,7 @@
         {
             "Key": "db77a977-1215-40d3-8da0-dc1d008d8b9b",
             "Value": {
-                "id": "8bff4121-42b5-4d2b-9a8e-f1a47370326c",
+                "id": "76f673c6-cdec-49e7-ba2a-bc5242bd3a1a",
                 "resourcePath": "rooms\\rmGame\\rmGame.yy",
                 "resourceType": "GMRoom"
             }
@@ -471,6 +479,14 @@
             }
         },
         {
+            "Key": "e55b16fb-a05b-4460-88fe-6a83bc2091a2",
+            "Value": {
+                "id": "48e6a822-0e66-454e-b458-f8b4af145d94",
+                "resourcePath": "objects\\oControl\\oControl.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "e55d697a-c4d2-4658-94f3-4d91ca83881d",
             "Value": {
                 "id": "a93e733d-66d7-4b88-b7c5-a5c4d85588e5",
@@ -497,8 +513,8 @@
         {
             "Key": "f101809d-8618-41fc-b755-32b30683b2c2",
             "Value": {
-                "id": "31272c7d-f9a6-4e64-8075-0c4594ab5b89",
-                "resourcePath": "objects\\oControl\\oControl.yy",
+                "id": "dafef91c-78e9-49b3-bb89-fde4425b54e1",
+                "resourcePath": "objects\\oControl1\\oControl1.yy",
                 "resourceType": "GMObject"
             }
         },

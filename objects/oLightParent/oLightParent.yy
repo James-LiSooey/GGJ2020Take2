@@ -1,5 +1,5 @@
 {
-    "id": "b86d5a08-08f1-45c9-8601-bb6b9737fdbc",
+    "id": "20e57370-071a-4d7d-9471-3f503ff16893",
     "modelName": "GMObject",
     "mvc": "1.0",
     "name": "oLightParent",
