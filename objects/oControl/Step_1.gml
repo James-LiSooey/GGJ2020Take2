@@ -1,25 +1,25 @@
 /// @description Insert description here
 // You can write your code in this editor
 if(gamepad_button_check_released(0, gp_face1)) {
-	if(global.lightsActive) {
-		global.lightsActive = false;
+	if(global.lightsActive2) {
+		global.lightsActive2 = false;
 	} else {
-		global.lightsActive = true
+		global.lightsActive2 = true
 	}
 }
 
 if(gamepad_button_check_released(0, gp_face2)) {
-	if(global.propellerActive) {
-		global.propellerActive = false;
+	if(global.propellerActive2) {
+		global.propellerActive2 = false;
 	} else {
-		global.propellerActive = true;	
+		global.propellerActive2 = true;	
 	}
 }
 
 if(gamepad_button_check_released(0, gp_face3)) {
-	if(global.pressureActive) {
-		global.pressureActive = false;
+	if(global.pressureActive2) {
+		global.pressureActive2 = false;
 	} else {
-		global.pressureActive = true;	
+		global.pressureActive2 = true;	
 	}
 }

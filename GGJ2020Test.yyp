@@ -111,6 +111,14 @@
             }
         },
         {
+            "Key": "264d86de-9924-4e56-a3bf-71494d98f116",
+            "Value": {
+                "id": "ea17f853-2b25-46e1-8ecd-aadc11475df4",
+                "resourcePath": "objects\\oStartButton\\oStartButton.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "2f7a070f-cd30-4571-a732-66c215f81035",
             "Value": {
                 "id": "cf4d2e63-b3eb-4e2e-892c-29c84f7317a0",
@@ -124,6 +132,22 @@
                 "id": "5babb692-6f26-4536-bc63-a7bc8c2e192e",
                 "resourcePath": "objects\\oLightControl\\oLightControl.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "350f547c-caf2-4505-ae83-3352b6f24b34",
+            "Value": {
+                "id": "9591c32d-0001-46ec-ba8a-9df81980b555",
+                "resourcePath": "objects\\oMenuController\\oMenuController.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "3e85ee89-1112-479e-83cd-249cf38cdee1",
+            "Value": {
+                "id": "45708d40-b3e1-4212-bc31-e1a9f45f09b4",
+                "resourcePath": "rooms\\rmStartMenu\\rmStartMenu.yy",
+                "resourceType": "GMRoom"
             }
         },
         {

@@ -30,7 +30,7 @@ if !surface_exists(surf){
 		draw_set_color(c_white);
 		with (oSubmarine)
 		{
-			if(global.lightsActive) {
+			if(global.lightsActive2) {
 				alph = 1;
 			} else {
 				alph = 0;
