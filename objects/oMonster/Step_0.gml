@@ -2,8 +2,8 @@
 // You can write your code in this editor
 //randomize();
 
-if(point_distance(x,y,obj_Submarine.x,obj_Submarine.y) < 1000 ) {
-	move_towards_point(obj_Submarine.x, obj_Submarine.y,speed);
+if(point_distance(x,y,oSubmarine.x,oSubmarine.y) < 1000 ) {
+	move_towards_point(oSubmarine.x, oSubmarine.y,speed);
 	//direction = obj_Submarine;
 	if(direction > 90 && direction < 270) {
 		image_xscale = -1;
