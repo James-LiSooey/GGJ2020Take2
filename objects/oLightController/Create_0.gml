@@ -2,10 +2,13 @@
 // You can write your code in this editor
 // Create a surface the size of the current room
 // You could also create a surface the size of the current view, but I won't get into that
+gamepad_set_axis_deadzone(0,0.05);
 alph = 0;
 haxis = 0;
 vaxis = 0;
 pd = 0;
+lastDirection = 0;
+
 
 surf = surface_create(room_width, room_height);
 

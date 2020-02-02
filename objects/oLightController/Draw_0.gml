@@ -39,13 +39,21 @@ if (!surface_exists(surf)) {
 			} else {
 				alph = 0;
 			}
-			haxis = gamepad_axis_value(0, gp_axisrh);
-			vaxis = gamepad_axis_value(0, gp_axisrv);
-			pd = point_direction(0,0,haxis,vaxis);
+			if((abs(gamepad_axis_value(0, gp_axisrv)) + abs(gamepad_axis_value(0, gp_axisrh)) )>.2){
+				haxis = gamepad_axis_value(0, gp_axisrh);
+				vaxis = gamepad_axis_value(0, gp_axisrv);
+			}
+			else{
+				vaxis = 0
+				haxis = 0;
+			}
+			
+			//pd = point_direction(0,0,haxis,vaxis);
+			lastDirection = point_direction(0, 0, lastHaxis, lastVaxis);
 			if (haxis != 0 || vaxis != 0) {
-				draw_sprite_ext(sDirLight, 0, oSubmarine.x - _cx, oSubmarine.y - _cy, 1, 1, pd, c_white, alph);
+				draw_sprite_ext(sDirLight, 0, oSubmarine.x - _cx, oSubmarine.y - _cy, 1, 1, point_direction(0,0,haxis,vaxis), c_white, alph);
 			} else {
-				draw_sprite_ext(sDirLight, 0, oSubmarine.x - _cx, oSubmarine.y - _cy, 1, 1, oSubmarine.direction, c_white, alph);
+				draw_sprite_ext(sDirLight, 0, oSubmarine.x - _cx, oSubmarine.y - _cy, 1, 1, lastDirection, c_white, alph);
 			}
 			draw_sprite_ext(sRadLight, 0, oSubmarine.x - _cx, oSubmarine.y - _cy, 1, 1, 0, c_white, 1)
 		}
