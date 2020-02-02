@@ -103,14 +103,6 @@
             }
         },
         {
-            "Key": "20e57370-071a-4d7d-9471-3f503ff16893",
-            "Value": {
-                "id": "2ce399d5-cdc6-4480-bef7-d47fa6131e5c",
-                "resourcePath": "objects\\oLightParent\\oLightParent.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "21a124c6-d378-450b-b99a-9efa13561ca2",
             "Value": {
                 "id": "ac858f86-0764-4c9b-8d15-c0eb1e531cf5",
@@ -508,14 +500,6 @@
                 "id": "0346551e-f591-48d7-845a-9bee82a46c0f",
                 "resourcePath": "sprites\\sSubmarine\\sSubmarine.yy",
                 "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "f101809d-8618-41fc-b755-32b30683b2c2",
-            "Value": {
-                "id": "dafef91c-78e9-49b3-bb89-fde4425b54e1",
-                "resourcePath": "objects\\oControl1\\oControl1.yy",
-                "resourceType": "GMObject"
             }
         },
         {
