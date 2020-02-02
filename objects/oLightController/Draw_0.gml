@@ -38,6 +38,9 @@ if !surface_exists(surf){
 			draw_sprite_ext(sDirLight, 0, oSubmarine.x - _cx, oSubmarine.y - _cy, 1, 1, oSubmarine.direction, c_white, alph);
 			draw_sprite_ext(sRadLight, 0, oSubmarine.x - _cx, oSubmarine.y - _cy, 1, 1, 0, c_white, 1)
 		}
+		with (oMonster) {
+			draw_sprite_ext(sRadLight, 0, x - _cx, y - _cy, 1, 1, 0, c_white, 1);	
+		}
 		gpu_set_blendmode(bm_normal);
 		draw_set_alpha(1);
 		surface_reset_target();

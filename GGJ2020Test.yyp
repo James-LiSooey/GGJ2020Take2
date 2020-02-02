@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "02a5a6f8-a671-42c5-acca-5b8459a2ffd2",
+            "Value": {
+                "id": "e5d5835c-955a-4c4d-ba5d-4f9b047e1d23",
+                "resourcePath": "objects\\oGround\\oGround.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "0337ee0d-9622-4a6f-bf3e-50480b42b893",
             "Value": {
                 "id": "acc68d31-0395-4edf-a0d3-68cd79cbade8",
@@ -283,6 +291,14 @@
             "Value": {
                 "id": "5c7369e0-d7ba-4b2e-9f97-03e2d2118875",
                 "resourcePath": "sprites\\sSub\\sSub.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "8fcb07e0-9220-4431-9c47-f9ad2b658c02",
+            "Value": {
+                "id": "b640b32f-0c5d-4130-8f76-0379406bec9d",
+                "resourcePath": "sprites\\sGround\\sGround.yy",
                 "resourceType": "GMSprite"
             }
         },
