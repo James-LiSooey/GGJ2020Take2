@@ -8,4 +8,4 @@ if(haxis != 0 || vaxis != 0) {
 }
 
 x = clamp(x, sprite_width, room_width-150);
-y = clamp(y, sprite_height, room_height-100);
+y = clamp(y, 1200 + sprite_height, room_height-100);

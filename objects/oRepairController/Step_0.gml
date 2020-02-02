@@ -4,21 +4,21 @@
 //Move camera to new board
 if(keyboard_check_released(vk_right)){
 	
-	var currentCameraX = camera_get_view_x(view_camera[0])
+	var currentCameraX = camera_get_view_x(view_camera[1])
 	var newCameraX = currentCameraX+960;
 	if(newCameraX >960*3){
 		newCameraX = 0
 	}
-	camera_set_view_pos(view_camera[0],newCameraX,0);
+	camera_set_view_pos(view_camera[1],newCameraX,0);
 }
 if(keyboard_check_released(vk_left)){
 	
-	var currentCameraX = camera_get_view_x(view_camera[0])
+	var currentCameraX = camera_get_view_x(view_camera[1])
 	var newCameraX = currentCameraX-960;
 	if(newCameraX <0){
 		newCameraX = 960*3
 	}
-	camera_set_view_pos(view_camera[0],newCameraX,0);
+	camera_set_view_pos(view_camera[1],newCameraX,0);
 }
 
 
