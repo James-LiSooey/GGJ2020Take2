@@ -16,13 +16,21 @@ if(!global.dead) {
 		facingLeft = true;
 		//image_angle = point_direction(0,0, haxis, vaxis);
 		direction = point_direction(0, 0, haxis, vaxis);
-		speed = point_distance(0 ,0, haxis, vaxis) * 15;
+		if(global.hasChest) {
+			speed = point_distance(0 ,0, haxis, vaxis) * 10;
+		} else {
+			speed = point_distance(0 ,0, haxis, vaxis) * 15;
+		}
 	} else if(haxis < 0) {
 		image_xscale = 1;
 		facingLeft = false;
 		//image_angle = point_direction(0,0, haxis, vaxis)-180;
 		direction = point_direction(0, 0, haxis, vaxis);
-		speed = point_distance(0 ,0, haxis, vaxis) * 15;
+		if(global.hasChest) {
+			speed = point_distance(0 ,0, haxis, vaxis) * 10;
+		} else {
+			speed = point_distance(0 ,0, haxis, vaxis) * 15;
+		}
 	} else {
 		direction = point_direction(0, 0, lastHaxis, lastVaxis);
 		speed = 0;
@@ -34,7 +42,7 @@ if(!global.dead) {
 	}
 } else {
 	direction = 270;
-	speed = 5;
+	speed = 7;
 }
 	
 

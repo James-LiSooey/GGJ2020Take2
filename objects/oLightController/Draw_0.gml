@@ -15,11 +15,15 @@ if (!surface_exists(surf)) {
 		var	 _cy = camera_get_view_y(view_camera[0]);
 		surface_set_target(surf);
 		draw_set_color(c_black);
-		if(oSubmarine.y < 950) {
+		if(oSubmarine.y < 3000) {
+			draw_set_alpha(0.5);	
+		} else if(oSubmarine.y < 3500) {
+			draw_set_alpha(0.6);	
+		} else if(oSubmarine.y < 4000) {
 			draw_set_alpha(0.7);	
-		} else if(oSubmarine.y < 1900) {
+		} else if(oSubmarine.y < 4500) {
 			draw_set_alpha(0.8);	
-		} else if(oSubmarine.y < 2850) {
+		} else if(oSubmarine.y < 50000) {
 			draw_set_alpha(0.9);	
 		} else {
 			draw_set_alpha(1);	
@@ -38,8 +42,11 @@ if (!surface_exists(surf)) {
 			haxis = gamepad_axis_value(0, gp_axisrh);
 			vaxis = gamepad_axis_value(0, gp_axisrv);
 			pd = point_direction(0,0,haxis,vaxis);
-			
-			draw_sprite_ext(sDirLight, 0, oSubmarine.x - _cx, oSubmarine.y - _cy, 1, 1, pd, c_white, alph);
+			if (haxis != 0 || vaxis != 0) {
+				draw_sprite_ext(sDirLight, 0, oSubmarine.x - _cx, oSubmarine.y - _cy, 1, 1, pd, c_white, alph);
+			} else {
+				draw_sprite_ext(sDirLight, 0, oSubmarine.x - _cx, oSubmarine.y - _cy, 1, 1, oSubmarine.direction, c_white, alph);
+			}
 			draw_sprite_ext(sRadLight, 0, oSubmarine.x - _cx, oSubmarine.y - _cy, 1, 1, 0, c_white, 1)
 		}
 		gpu_set_blendmode(bm_normal);
