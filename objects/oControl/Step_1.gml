@@ -31,3 +31,9 @@ if(gamepad_button_check_released(0, gp_face4)) {
 		global.dead = true;	
 	}
 }
+
+if(global.dead) {
+	global.lightsActive2 = false;
+	global.propellerActive2 = false;
+	global.pressureActive2 = false;
+}
